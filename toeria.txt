@@ -1,0 +1,24 @@
+1. Php unit en laravel 
+
+
+Para iniciar a trabajar con php unit en laravel, necesitamos poner este comando en la consola:
+
+laravel new phpunit
+
+correr tests:
+
+php artisan test
+
+php vendor/bin/phpunit
+
+
+2. Crear feature o prueba unit
+
+php artisan make:test ExampleTest
+
+php artisan make:test ExampleTest --unit
+
+
+3. Ejecutar prueba singularmente
+
+php artisan test --filter ExampleTest
